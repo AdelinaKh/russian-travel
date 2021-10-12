@@ -1,0 +1,16 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  padding-bottom: 16px;
+}
+@media screen and (max-width: 768px) {
+  .place__website {
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__website {
+    padding: 0 16px 0;
+  }
+}
