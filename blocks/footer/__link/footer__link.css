@@ -8,31 +8,20 @@
   color: white;
   text-decoration-line: none;
 }
+.footer__link:hover {
+  opacity: 0.8;
+}
 @media screen and (max-width: 730px) {
   .footer__link {
     font-size: 0.8rem;
   }
 }
-@media screen and (max-width: 620px) {
-  .footer__link {
-    font-size: 0.6rem;
-    padding-right: 8px;
-  }
-}
-@media screen and (max-width: 460px) {
-  .footer__link {
-    font-size: 0.45rem;
-    padding-right: 3px;
-  }
-}
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 650px) {
   .footer__link {
     flex-direction: column;
     font-size: 1.5rem;
     line-height: 1;
     margin-bottom: 32px;
-  }
-  .footer__link:last-child{
-    margin-bottom: 48px;
+    padding: 0;
   }
 }

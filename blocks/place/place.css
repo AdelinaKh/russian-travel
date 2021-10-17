@@ -6,11 +6,16 @@
   margin: 0 auto 80px;
 }
 .place:last-child {
-  margin-bottom: 92px;
+  margin-bottom: 0;
 }
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 440px 1fr;
+  }
+}
+@media screen and (max-width: 900px) {
+  .place {
+    grid-template-columns: calc(100% / 2) 1fr;
   }
 }
 @media screen and (max-width: 768px) {
@@ -20,9 +25,6 @@
     grid-template-rows: minmax(46px 92px) 1fr;
     gap: 28px;
   }
-  .place:last-child {
-    margin-bottom: 90px;
-  }
 }
 @media screen and (max-width: 680px) {
   .place {
@@ -31,14 +33,7 @@
     gap: 24px;
   }
 }
-@media screen and (max-width: 460px) {
-  .place {
-    grid-template-columns: calc(100% / 2 - 10px) 1fr;
-    margin-bottom: 10px;
-    gap: 24px;
-  }
-}
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 490px) {
   .place {
     grid: none;
     margin: 0;

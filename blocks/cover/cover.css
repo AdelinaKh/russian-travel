@@ -1,16 +1,19 @@
 .cover {
-  margin-bottom: 92px;
-  max-width: 100%;
+  margin: 0 auto 92px;
+  max-width: calc(100% - 48px * 2);
+}
+@media screen and (max-width: 1024px) {
+  .cover {
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 768px) {
   .cover {
-    align-self: center;
     margin-bottom: 88px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .cover {
-    align-self: center;
     margin-bottom: 64px;
   }
 }
