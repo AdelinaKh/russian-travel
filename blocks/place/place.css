@@ -47,7 +47,7 @@
 @media screen and (max-width: 490px) {
   .place {
     grid: none;
-    margin: 64px 0 0;
+    margin: 50px 0 0;
     gap: 32px;
   }
 }
