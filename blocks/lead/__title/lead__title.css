@@ -17,20 +17,25 @@
     max-width: calc(100% - 24px * 2);
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 740px) {
   .lead__title {
     font-size: 4.5rem;
   }
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 560px) {
+  .lead__title {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 450px) {
   .lead__title {
     font-size: 2.5rem;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 340px) {
   .lead__title {
     line-height: 1.1;
     max-width: calc(100% - 16px * 2);
-    margin: 48px 0 16px;
+    margin: 48px auto 16px;
   }
 }

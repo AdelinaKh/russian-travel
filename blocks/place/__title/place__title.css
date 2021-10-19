@@ -4,8 +4,13 @@
   font-size: 4.5rem;
   line-height: 1.05;
   margin: 0;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
   align-self: flex-end;
+}
+@media screen and (max-width: 1024px) {
+  .place__title {
+    padding-bottom: 16px;
+  }
 }
 @media screen and (max-width: 900px) {
   .place__title {
@@ -19,13 +24,16 @@
     padding-bottom: 20px;
   }
 }
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 630px) {
   .place__title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    padding-bottom: 0;
   }
 }
 @media screen and (max-width: 320px) {
   .place__title {
-    padding: 0 16px 0;
+    font-size: 2rem;
+    line-height: 0.91rem;
+    padding: 1px 16px 10px;
   }
 }

@@ -27,12 +27,22 @@
     max-width: calc(100% - 20px);
   }
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 670px) {
+  .cover__title {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 430px) {
   .cover__title {
     font-size: 3rem;
   }
 }
 @media screen and (max-width: 380px) {
+  .cover__title {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
   .cover__title {
     font-size: 2rem;
     line-height: 1.1;

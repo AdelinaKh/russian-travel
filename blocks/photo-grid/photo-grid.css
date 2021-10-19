@@ -1,6 +1,11 @@
 .photo-grid {
-  max-width: calc(100% - 48px * 2);
+  max-width: 1184px;
   margin: 0 auto 0;
+}
+@media screen and (max-width: 1024px) {
+  .photo-grid {
+    max-width: calc(100% - 48px * 2);
+  }
 }
 @media screen and (max-width: 768px) {
   .photo-grid {
@@ -8,7 +13,7 @@
   }
 }
 @media screen and (max-width: 320px) {
-  .photo-grid{
+  .photo-grid {
     max-width: calc(100% - 16px * 2);
   }
 }
